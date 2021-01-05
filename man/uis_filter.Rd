@@ -49,11 +49,10 @@ uis_filter_country(df,
 uis_filter_country(df,
                    "PHL",
                     indicator_ids=c("FOSGP_5T8_F900","FOSGP_5T8_F300","FOSGP_5T8_FUK"))
-uis_filter_countr(df,
+uis_filter_country(df,
                    "PHL",
                    years=seq(2010,2013),
                    indicator_ids=c("FOSGP_5T8_F900","FOSGP_5T8_F300","FOSGP_5T8_FUK"))
-
 uis_filter_indicator(df,
                      "FOSGP_5T8_F500")
 uis_filter_indicator(df,
@@ -63,5 +62,4 @@ uis_filter_indicator(df,
                       "FOSGP_5T8_F500",
                        years=seq(2010,2013),
                        countries=c("PHL","USA","CHN"))
-
 }
