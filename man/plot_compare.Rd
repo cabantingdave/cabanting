@@ -91,7 +91,6 @@ plot_compare(df1,
              countries = c("PHL"),
              round_places = 3) +
    theme(axis.text.y = element_blank())
-
 plot_compare(df,
            countries = c("PHL","MMR","ITA"),
            stat = "median",
@@ -99,17 +98,13 @@ plot_compare(df,
            top = 30,
            axis=1,
            round_places = 3)
-
-
-#' plot_compare(df,
+plot_compare(df,
            countries = c("PHL","MMR","ITA"),
            stat = "median",
            world_stat = "mean",
            top = seq(20,40),
            axis=1,
            round_places = 3)
-
-
 plot_compare(df,
            countries = c("PHL","MMR","ITA"),
            stat = "median",
@@ -119,11 +114,6 @@ plot_compare(df,
            top = -20
            include_world_stat = FALSE,
            use_code_in_label = FALSE,
-           color_palette = "BuGn"
-           )
-
-
-}
+           color_palette = "BuGn")}
 \seealso{
-
 }
