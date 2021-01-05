@@ -1,0 +1,15 @@
+Package: cabanting
+Date: 2021-01-05
+Type: Package
+Title: UNESCO Institute of Statistics Dataset Package
+Version: 1.0.0
+Author: Francis Dave Cabanting
+Maintainer: Francis Dave Cabanting <fdpcabanting@usep.edu.ph>
+Description: A learning evidence for Introduction to Computer Programming class 
+    in Masters in a Applied Math Program, this package streamlines the process to extract data
+    from indicators and countries from the datasets downloaded from data.uis.unesco.org.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1.9000
+Roxygen: list(markdown = TRUE)
